@@ -1,9 +1,66 @@
+<!DOCTYPE html>
 <html>
- 
+<head>
+  <title>CSS Cheat Sheet</title>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
 <body>
-  <h1>Jon Morris</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <h1>CSS Selectors Reference</h1>
+  <h2>Selector Tags & Descriptions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Example</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">.class</span></td>
+            <td>.intro</td>
+            <td>Selects all elements with class="intro"</td>
+          </tr>
+          <tr>
+            <td><span class="code">.class1.class2</span></td>
+            <td>.name1.name2</td>
+            <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+          </tr>
+          <tr>
+            <td><span class="code">.class1 .class2</span></td>
+            <td>.name1 .name2</td>
+            <td>Selects all elements with name2 that is a descendant of an element with name</td>
+          </tr>
+          <tr>
+            <td><span class="code">#id</span></td>
+            <td>#firstname</td>
+            <td>Selects the element with the id="firstname"</td>
+          </tr>
+          <tr>
+            <td><span class="code">*</span></td>
+            <td>*</td>
+            <td>Selects all elements</td>
+          </tr>
+          <tr>
+            <td><span class="code">element</span></td>
+            <td>p</td>
+            <td>Selects all &lt;p&gt; elements</td>
+          </tr>
+          <tr>
+            <td><span class="code">element.class</span></td>
+            <td>p.intro</td>
+            <td>selects all &lt;p&gt; elements with class="intro"</td>
+          </tr>
+          <tr>
+            <td><span class="code">element,element</span></td>
+            <td>div, p</td>
+            <td>selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+          </tr>
+          <tr>
+            <td><span class="code">element element</span></td>
+            <td>div p</td>
+            <td>selects all &lt;p&gt; elements inside &lt;div&gt; elements</td>
+      </tbody>
+    </table>
 </body>
- 
 </html>
